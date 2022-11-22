@@ -4,12 +4,18 @@ import keyboard from './assets/desktop/image-keyboard.jpg'
 import key1 from './assets/desktop/image-phone-and-keyboard.jpg'
 import key2 from './assets/desktop/image-glass-and-keyboard.jpg'
 import battery from './assets/shared/icon-battery.svg'
+import tv from './assets/shared/icon-compatible.svg'
+import bluetooth from './assets/shared/icon-bluetooth.svg'
+import light from './assets/shared/icon-light.svg'
 
 import { Button, Col, Container, Row } from 'react-bootstrap'
 const Page = () => {
     return (
-            <Row className="page-container">
-                <Row xs={1} sm={2} className="nav " >
+        <Container >
+
+                <Row className='page'>
+
+                <Row   className="mt-5 grid-nav " >
 
                     <Col>
                         <>
@@ -17,8 +23,9 @@ const Page = () => {
                             </div>
                         </>
                     </Col>
+                    
                     <Col>
-                        <Button className='order-btn '>pre-order now</Button>
+                        <Button className='order-btn  '>pre-order now</Button>
                     </Col>
                 </Row>
 
@@ -37,7 +44,8 @@ const Page = () => {
                         </Row>
 
                     </Col>
-                    <Col className='hero2' >
+
+                    <Col >
                         <div className='img-container'>
                             <img src={keyboard} alt='keyboard' className='img-container' />
                         </div>
@@ -52,9 +60,9 @@ const Page = () => {
 
                                 <img src={key1} className='img-filter' />
                             </div>
-                            <div className='pic'>
+                            <div className='picture-container'>
 
-                                <img src={key2}  />
+                                <img src={key2} className='picture' />
                             </div>
                         </div>
                     </Col>
@@ -72,39 +80,40 @@ const Page = () => {
                     </Col>
 
                 </Row>
-                <Row md={4}>
+                <Row xs={1} sm={4} md={4}>
                     <Col className='property1'>
-                    <div className='svg-container'><img src={battery} /></div>
+                    <div className='svg-container'><img src={tv} style={{width:'35%',}} /></div>
                         <div><h1 className='poperty-title'>Highly compatible</h1></div>
                         <div><p className='poperty-info'>Easy to use and works well with all major computer brands, gaming consoles and mobile devices. 
   Plug & play, no installation or driver needed.</p></div>
                     </Col>
                     <Col className='property2'>
-                    <div className='svg-container'><img src={battery} /></div>
+                    <div className='svg-container'><img src={bluetooth} style={{width:'25%',}} /></div>
 
                         <div><h1 className='poperty-title'>Highly compatible</h1></div>
                         <div><p className='poperty-info'>Easy to use and works well with all major computer brands, gaming consoles and mobile devices. 
   Plug & play, no installation or driver needed.</p></div>
                     </Col>
                     <Col className='property3'>
-                    <div className='svg-container'><img src={battery} /></div>
+                    <div className='svg-container'><img src={battery} style={{width:'35%',}}/></div>
 
                         <div><h1 className='poperty-title'>Highly compatible</h1></div>
                         <div><p className='poperty-info'>Easy to use and works well with all major computer brands, gaming consoles and mobile devices. 
   Plug & play, no installation or driver needed.</p></div>
                     </Col>
                     <Col className='property4'>
-                    <div className='svg-container'><img src={battery} /></div>
+                    <div className='svg-container'><img src={light} style={{width:'40%',}} /></div>
                         <div><h1 className='poperty-title'>Highly compatible</h1></div>
                         <div><p className='poperty-info'>Easy to use and works well with all major computer brands, gaming consoles and mobile devices. 
   Plug & play, no installation or driver needed.</p></div>
                     </Col>
+            
                 </Row>
-            <div className='top-design'></div>
-            <div className='bottom-design'></div>
-            </Row>
+                </Row>
+                <p className='footer'><span className='footer-span'>Typemaster 2021 |</span>All Rights Reserved</p>
 
 
+        </Container>
     )
 }
 
