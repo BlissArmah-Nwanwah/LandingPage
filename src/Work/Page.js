@@ -11,11 +11,11 @@ import light from './assets/shared/icon-light.svg'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 const Page = () => {
     return (
-        <Container >
+        <div className='main-page'>
 
-                <Row className='page'>
+            <Row className='page'>
 
-                <Row   className="mt-5 grid-nav " >
+                <Row className="mt-5 flex-nav " >
 
                     <Col>
                         <>
@@ -23,36 +23,40 @@ const Page = () => {
                             </div>
                         </>
                     </Col>
-                    
-                    <Col>
+
+                    <Col className='ci'>
                         <Button className='order-btn  '>pre-order now</Button>
                     </Col>
                 </Row>
 
-                <Row xs={1} sm={2} className="mt-5 center">
-                    <Col className='hero-title hero'>
-                        <h1 className='title'>typemaster keyboard</h1>
-                        <p className='title-text'>
-                            Improve your productivity and gaming without breaking the bank. Upgrade to a high quality
-                            mechanical typing experience.</p>
+                <Row xs={2} sm={2} className="mt-5 center ">
+                    <Col >
+                        <div className=' hero' >
 
-                        <Row xs={2} className="title-footer">
+                            <div>
 
-                            <Button className='hero-btn'>pre-order now</Button>
-                            <p className='text'>Release on 5/27</p>
+                                <h1 className='title'>typemaster keyboard</h1>
+                                <p className='title-text'>
+                                    Improve your productivity and gaming without breaking the bank. Upgrade to a high quality
+                                    mechanical typing experience.</p>
+                            </div>
 
-                        </Row>
+                            <div className="title-footer">
+
+                                <Button className='hero-btn'>pre-order now</Button>
+                                <p className='text'>Release on 5/27</p>
+
+                            </div>
+                        </div>
 
                     </Col>
 
                     <Col >
-                        <div className='img-container'>
-                            <img src={keyboard} alt='keyboard' className='img-container' />
-                        </div>
-                    </Col>
 
+                        <img src={keyboard} alt='keyboard' className='img-container' />
+                    </Col>
                 </Row>
-                <Row xs={1} md={2} className="mt-5" >
+                <Row xs={1} lg={2} className="mt-5" >
                     <Col>
                         <div className='flex'>
 
@@ -68,52 +72,57 @@ const Page = () => {
                     </Col>
 
                     <Col>
-                        <div className='key-container'>
-
-                            <h1 className='key-title'>
+                        <Row xs={1} sm={2}>
+                            <Col >
+                             <h1 className='key-title'>
                                 Mechanical wireless keyboard</h1>
-                            <p className='title-info'>
+                            </Col>
+                            <Col >
+                             <p className='title-info'>
                                 The Typemaster keyboard boasts top-notch build and practical design. It offers a wide variety
                                 of switches and keycaps, along with reliable wireless connectivity.</p>
-                        </div>
+                                </Col>
+
+                        </Row>
+
 
                     </Col>
 
                 </Row>
                 <Row xs={1} sm={4} md={4}>
                     <Col className='property1'>
-                    <div className='svg-container'><img src={tv} style={{width:'35%',}} /></div>
+                        <div className='svg-container'><img src={tv} style={{ width: '35%', }} /></div>
                         <div><h1 className='poperty-title'>Highly compatible</h1></div>
-                        <div><p className='poperty-info'>Easy to use and works well with all major computer brands, gaming consoles and mobile devices. 
-  Plug & play, no installation or driver needed.</p></div>
+                        <div><p className='poperty-info'>Easy to use and works well with all major computer brands, gaming consoles and mobile devices.
+                            Plug & play, no installation or driver needed.</p></div>
                     </Col>
                     <Col className='property2'>
-                    <div className='svg-container'><img src={bluetooth} style={{width:'25%',}} /></div>
+                        <div className='svg-container'><img src={bluetooth} style={{ width: '25%', }} /></div>
 
                         <div><h1 className='poperty-title'>Highly compatible</h1></div>
-                        <div><p className='poperty-info'>Easy to use and works well with all major computer brands, gaming consoles and mobile devices. 
-  Plug & play, no installation or driver needed.</p></div>
+                        <div><p className='poperty-info'>Easy to use and works well with all major computer brands, gaming consoles and mobile devices.
+                            Plug & play, no installation or driver needed.</p></div>
                     </Col>
                     <Col className='property3'>
-                    <div className='svg-container'><img src={battery} style={{width:'35%',}}/></div>
+                        <div className='svg-container'><img src={battery} style={{ width: '35%', }} /></div>
 
                         <div><h1 className='poperty-title'>Highly compatible</h1></div>
-                        <div><p className='poperty-info'>Easy to use and works well with all major computer brands, gaming consoles and mobile devices. 
-  Plug & play, no installation or driver needed.</p></div>
+                        <div><p className='poperty-info'>Easy to use and works well with all major computer brands, gaming consoles and mobile devices.
+                            Plug & play, no installation or driver needed.</p></div>
                     </Col>
                     <Col className='property4'>
-                    <div className='svg-container'><img src={light} style={{width:'40%',}} /></div>
+                        <div className='svg-container'><img src={light} style={{ width: '40%', }} /></div>
                         <div><h1 className='poperty-title'>Highly compatible</h1></div>
-                        <div><p className='poperty-info'>Easy to use and works well with all major computer brands, gaming consoles and mobile devices. 
-  Plug & play, no installation or driver needed.</p></div>
+                        <div><p className='poperty-info'>Easy to use and works well with all major computer brands, gaming consoles and mobile devices.
+                            Plug & play, no installation or driver needed.</p></div>
                     </Col>
-            
+
                 </Row>
-                </Row>
-                <p className='footer'><span className='footer-span'>Typemaster 2021 |</span>All Rights Reserved</p>
+            </Row>
+            <p className='footer'><span className='footer-span'>Typemaster 2021 |</span>All Rights Reserved</p>
 
 
-        </Container>
+        </div>
     )
 }
 
