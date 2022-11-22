@@ -134,26 +134,23 @@ left: 450px;
 top: 706px;
   }
   .img-filter{
-      border-radius: 20px;
-      position: absolute;
-      width: 255px;
-      height: 480px;
-      left: 165px;
-      top: 706px;
-      filter:opacity(80%);
+    position: relative;
+          border-radius: 20px;
+      filter:opacity(30%);
+
 
 
     
   }
 
   .img-filter-container{
+      position: relative;
+      top: 60px;
+      
     background: #F16718;
     border-radius: 20px;
-    position: absolute;
 width: 255px;
 height: 480px;
-left: 165px;
-top: 706px;
 
   }
   .key-container{
