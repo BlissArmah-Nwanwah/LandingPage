@@ -28,7 +28,7 @@ const Page = () => {
                     </Col>
 
                     <Col xs={6} md={3} lg={3} className='ci'>
-                        <Button className='order-btn  '>Pre-order now</Button>
+                        <Button className='order-btn  '>Pre-order Now</Button>
                     </Col>
                 </Row>
 
