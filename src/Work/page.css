@@ -64,7 +64,7 @@ height: 58px;
 .ci{
    
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
 
 }
 .logo-svg{
@@ -174,14 +174,14 @@ color: #162542;
 .img-filter {
   position: relative;
   border-radius: 20px;
-  filter: opacity(7.5%);
+  filter: opacity(15%);
   height: 100%;
   width: 100%;
   object-fit: fit;
 }
 
 .img-filter-container {
-  background: #f16718;
+  background: #f26818;
   border-radius: 20px;
   width: 200px;
   height: 410px;

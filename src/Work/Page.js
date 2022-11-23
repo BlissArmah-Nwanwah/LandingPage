@@ -55,8 +55,10 @@ const Page = () => {
                     </Col>
 
                     <Col >
+                    <div className='img-container'>
 
-                        <img src={keyboard} alt='keyboard' className='img-container' />
+                        <img src={keyboard} alt='keyboard'  />
+                    </div>
                     </Col>
                 </Row>
                 <Row xs={2}  md={2} lg={3} className="mt-5 g-5  ff" >
