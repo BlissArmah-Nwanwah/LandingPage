@@ -401,13 +401,7 @@ height: 193px;
     }
 }
 
-@media screen and (min-width:768px ) {
-    .f{
-        display: grid;
-        grid-template-columns: auto auto;
 
-    }
-}
 
 @media screen and (max-width:950px ) {
     .pattern1{
