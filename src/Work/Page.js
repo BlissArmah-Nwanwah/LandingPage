@@ -33,10 +33,10 @@ const Page = () => {
                 </Row>
 
                 <Row xs={1} sm={2} className="mt-5 hero-section ">
-                    <Col xs={2}>
+                    <Col  >
                         <div className=' hero' >
 
-                            <div>
+                            <div >
 
                                 <h1 className='hero-title'>typemaster keyboard</h1>
                                 <p className='hero-text'>
@@ -54,7 +54,7 @@ const Page = () => {
                     </Col>
                     <Col >
                     <div className='hero-img-container'>
-                        <img src={keyboard} alt='keyboard'  />
+                        <img src={keyboard} alt='keyboard' />
                     </div>
                     </Col>
                 </Row>
