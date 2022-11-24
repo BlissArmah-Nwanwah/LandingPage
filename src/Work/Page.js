@@ -104,7 +104,7 @@ const Page = () => {
                     <Col className='property'>
                         <div className='svg-container'><img src={bluetooth} style={{ width: '25%' }} /></div>
 
-                        <div><h1 className='poperty-title'> Wireless with bluetooth</h1></div>
+                        <div><h1 className='poperty-title'>Wireless with bluetooth</h1></div>
                         <div><p className='poperty-info'>Powerful 2.4G RF technology allows you to connect the cordless keyboard from up to 30ft away.
                             Simply plug the unifying receiver into your computer.</p></div>
                     </Col>
@@ -112,7 +112,7 @@ const Page = () => {
                         <div className='svg-container'><img src={battery} style={{ width: '35%', }} /></div>
 
                         <div><h1 className='poperty-title'> High capacity battery</h1></div>
-                        <div><p className='poperty-info'>Equipped with a long-lasting built-in battery, you’ll never have to spend a dime on replaceable ones.
+                        <div><p className='poperty-info'> Equipped with a long-lasting built-in battery, you’ll never have to spend a dime on replaceable ones.
                             Enjoy 40 hours of usage time between charges.
                         </p></div>
                     </Col>
