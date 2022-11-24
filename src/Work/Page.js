@@ -67,7 +67,7 @@ const Page = () => {
 
                             <div className='img-filter-container'>
 
-                                <img src={key1} className='img-filter' />
+                                <img  src={key1} className='img-filter' />
                             </div>
                             </Col>
 
