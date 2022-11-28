@@ -77,7 +77,7 @@ const Page = () => {
                     
 
                     <Col sm={12} md={12}  >
-                        <Row xs={1} sm={2} lg={1} className="p-5" >
+                        <Row xs={1} sm={2} lg={1} className="p-5 about-text-section">
                             <div  >
                                 <h1 className='about-title'>
                                     Mechanical wireless keyboard</h1>
