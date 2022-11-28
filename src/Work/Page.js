@@ -127,7 +127,7 @@ const Page = () => {
                 
                 
                 <footer >
-                <p ><span className='footer-span'>Typemaster 2021 | </span> All Rights Reserved</p>
+                <p className='footer-text' ><span className='footer-span'>Typemaster 2021 | </span> All Rights Reserved</p>
                 </footer>
                 
 

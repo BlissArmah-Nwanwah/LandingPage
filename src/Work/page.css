@@ -188,13 +188,13 @@ color: #162542;
 .about-first-image-container {
   background: #f26818;
   border-radius: 20px;
-  width: 200px;
+  width: 240px;
   height: 410px;
   
 }
 
 .about-picture-container {
-  width: 400px;
+  width: 445px;
   height: 410px;
  
 }
@@ -251,7 +251,7 @@ margin-bottom: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1rem
+  margin-bottom: 3rem
 }
 
 .poperty-title {
@@ -282,15 +282,15 @@ margin-bottom: 5rem;
 footer{
     margin: 0 auto;
 width: 272px;
-height: 26px;
 text-align: center;
 font-family: 'Barlow';
 font-style: normal;
-
 font-size: 16px;
 line-height: 26px;
 color: #7B8BAD;
+padding: 3rem;
 }
+
 .footer-span{
     font-weight: 700;
 }
@@ -301,8 +301,8 @@ color: #7B8BAD;
     position: absolute;
     width: 275px;
 height: 166px;
-left: 1225px;
-top: 210px;
+left: 1245px;
+top: 175px;
 background: #E8EFF2;
 border-radius: 20px;
 }
@@ -311,58 +311,12 @@ border-radius: 20px;
     width: 245px;
     height: 166px;
     left: -120px;
-    top: 910px;
-
+    top: 879px;
     background: #E8EFF2;
     border-radius: 20px;
 }
 
-/* 
-@media screen and (max-width:550px ) {
-    
-}
 
-
-@media screen and (min-width:768px ) {
-    .properties{
-        display: grid;
-        grid-template-columns: auto auto;
-
-    }
-   
-    .hero-text{
-      width: 380px;
-    }
-}
-
-@media screen and (min-width:850px ) {
-    .properties{
-        margin: 0 auto;
-        width: 1110px;
-        gap:1rem;    
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-
-
-@media screen and (max-width:950px ) {
-    .pattern1{
-        display: none;
-        
-    }
-    .pattern2{
-        display: none;
-
-    }
-}
-@media screen and (max-width:698px ) {
-    .title-text{
-        width: 300px;
-    }
-} */
 
 @media only screen and (max-width: 850px) and (min-width:430px) {
   .nav-btn{
@@ -447,4 +401,10 @@ height: 193px;
   width: 327px;
 }
 
+}
+
+@media screen  and (min-width:1367px) {
+  .pattern1,.pattern2{
+    display: none;
+  }
 }
