@@ -57,6 +57,7 @@ const Page = () => {
                         <img src={keyboard} alt='keyboard' />
                     </div>
                     </Col>
+            <div className='pattern1'></div>
                 </Row>
 
                 <Row xs={2}  md={2} lg={3} className="about-section" >
@@ -92,6 +93,7 @@ const Page = () => {
 
 
                     </Col>
+                <div className='pattern2'></div>
 
                 </Row>
                 <Row xs={1} sm={2} md={2} className='mt-5 properties' >
@@ -132,8 +134,6 @@ const Page = () => {
                 
 
             </Row>
-            <div className='pattern1'></div>
-                <div className='pattern2'></div>
                 
         </div>
     )
