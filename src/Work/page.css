@@ -417,4 +417,14 @@ height: 193px;
 
 }
 
+@media screen  and (max-width:1112px) and (min-width:1111px) {
+  .pattern1,.pattern2{
+    display: none;
+  }
+
+}
+
+
+
+
 
